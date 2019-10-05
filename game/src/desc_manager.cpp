@@ -2,7 +2,7 @@
 #include <boost/algorithm/string.hpp>
 
 //Find
-	if (d->GetCharacter() && !strcmp(d->GetCharacter()->GetName(), m_name))
+		if (d->GetCharacter() && !strcmp(d->GetCharacter()->GetName(), m_name))
 			return true;
 		return false;
 		
